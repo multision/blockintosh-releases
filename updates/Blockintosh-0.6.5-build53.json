@@ -1,0 +1,62 @@
+{
+  "id": "blockintosh-0.6.5-beta-build53",
+  "title": "Blockintosh 0.6.5 Beta · Build 53",
+  "summary": "0.6.5-beta build 53: DualShock 4 and DualSense controller mapping through the bundled mcSoda runtime.",
+  "publishedAt": "2026-10-22T22:15:59.879789Z",
+  "source": "Blockintosh",
+  "sourceUrl": null,
+  "blocks": [
+    {
+      "kind": "heading",
+      "text": "What’s new in 0.6.5"
+    },
+    {
+      "kind": "bullet",
+      "text": "DualShock 4 and DualSense now use the bundled SDL Xbox-compatible controller mapping automatically, including Bluetooth and USB input."
+    },
+    {
+      "kind": "bullet",
+      "text": "Existing profiles receive the controller settings on their next launch. No separate controller mapper or mcSoda download is needed."
+    },
+    {
+      "kind": "bullet",
+      "text": "PlayStation buttons map to the Xbox controls Minecraft expects. The game may show Xbox button labels."
+    },
+    {
+      "kind": "heading",
+      "text": "First public beta"
+    },
+    {
+      "kind": "bullet",
+      "text": "Native macOS launcher with worlds, profiles, add-ons, Release and Preview builds, and Xbox sign-in."
+    },
+    {
+      "kind": "bullet",
+      "text": "The packaged app includes the mcSoda runtime and backend. Minecraft still comes from your own Microsoft account and license."
+    },
+    {
+      "kind": "heading",
+      "text": "Launcher updates"
+    },
+    {
+      "kind": "bullet",
+      "text": "This build connects to the Blockintosh update feed. Future downloads are signed and hosted separately from the launcher source."
+    },
+    {
+      "kind": "bullet",
+      "text": "Update checks are manual for now. Older builds without a feed need this first install done manually."
+    },
+    {
+      "kind": "heading",
+      "text": "Before you jump in"
+    },
+    {
+      "kind": "bullet",
+      "text": "Apple Silicon and Rosetta are required. The launcher needs macOS 15.0+, while gameplay needs macOS 26.4+ with bundled GPTK 4 or macOS 15.4+ with the optional GPTK 3 setup."
+    },
+    {
+      "kind": "bullet",
+      "text": "This is still a beta. Realms, Marketplace, sustained performance, and wider Mac compatibility are still being tested. Back up important worlds before testing a new build."
+    }
+  ]
+}

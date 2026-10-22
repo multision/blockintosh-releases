@@ -1,7 +1,17 @@
-<?xml version="1.0" standalone="yes"?>
+<?xml version='1.0' encoding='utf-8'?>
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
-        <title>Blockintosh-0.6.5-build52</title>
+        <title>Blockintosh-0.6.5-build53</title>
+        <item>
+            <title>0.6.5</title>
+            <pubDate>Thu, 22 Oct 2026 18:33:13 -0500</pubDate>
+            <sparkle:version>53</sparkle:version>
+            <sparkle:shortVersionString>0.6.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <sparkle:releaseNotesLink>https://raw.githubusercontent.com/multision/blockintosh-releases/main/updates/Blockintosh-0.6.5-build53.html</sparkle:releaseNotesLink>
+            <enclosure url="https://github.com/multision/blockintosh-releases/releases/download/v0.6.5-beta.53/Blockintosh-0.6.5-build53.zip" length="483984121" type="application/octet-stream" sparkle:edSignature="duEg3CXg8BbZptUNoB8czhO6NccNePm3KTZhcda5WJzoBlFSHffWztV75NNDt+rhOTX30soeg5yp3NtFJKvpBA==" />
+        </item>
         <item>
             <title>0.6.5</title>
             <pubDate>Thu, 22 Oct 2026 10:03:21 -0400</pubDate>
@@ -10,7 +20,7 @@
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <sparkle:releaseNotesLink>https://raw.githubusercontent.com/multision/blockintosh-releases/main/updates/Blockintosh-0.6.5-build52.html</sparkle:releaseNotesLink>
-            <enclosure url="https://github.com/multision/blockintosh-releases/releases/download/v0.6.5-beta.52/Blockintosh-0.6.5-build52.zip" length="483948595" type="application/octet-stream" sparkle:edSignature="S96zo3q4VNLLJQq139kDhoWD9d8mxwdcqXtY/SuuucozOn/Nc+yn7S2NPcEw1ZXJ9noqFcVvG2vs2f7yvhR2AQ=="/>
+            <enclosure url="https://github.com/multision/blockintosh-releases/releases/download/v0.6.5-beta.52/Blockintosh-0.6.5-build52.zip" length="483948595" type="application/octet-stream" sparkle:edSignature="S96zo3q4VNLLJQq139kDhoWD9d8mxwdcqXtY/SuuucozOn/Nc+yn7S2NPcEw1ZXJ9noqFcVvG2vs2f7yvhR2AQ==" />
         </item>
     </channel>
 </rss>
