@@ -16,3 +16,11 @@ Website and docs: https://blockintosh.multision.dev/
 This is still a beta. Back up important worlds before testing a new build. Compatibility and distribution notes are included with each release.
 
 Not an official Minecraft product. Not associated with Mojang, Microsoft, or Apple.
+
+## Updates
+
+The launcher and website share this public feed:
+
+https://raw.githubusercontent.com/multision/blockintosh-releases/main/updates/appcast.xml
+
+Release archives are signed with Sparkle. The public verification key is in `sparkle-public-key.txt`; private signing keys are never stored here.
