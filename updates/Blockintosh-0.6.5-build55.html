@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8">
+<style>body { font: -apple-system-body, system-ui, sans-serif; margin: 0 ; color: #1d1d1f; }
+h1 { font-size: 1.1em; margin: 0 0 0.2em; }
+h2 { font-size: 1em; margin: 1em 0 0.3em; }
+p.summary { color: #6e6e73; margin: 0 0 0.8em; }
+ul { margin: 0; padding-left: 1.2em; }
+li { margin-bottom: 0.4em; }
+@media (prefers-color-scheme: dark) {
+  body { color: #f5f5f7; }
+  p.summary { color: #a1a1a6; }
+}</style></head>
+<body>
+<h1>Blockintosh 0.6.5 Beta · Build 55</h1>
+<p class="summary">0.6.5-beta build 55: profile version switching, desktop wallpaper backgrounds, cleaner diagnostics, and a stable app name.</p>
+<h2>What’s new in 0.6.5</h2>
+<ul><li>Update or change Minecraft versions from Profiles while keeping the same worlds, settings, skins, packs, and account. Each profile remembers its selected build.</li><li>Minecraft updates install alongside existing shared builds and select the new version only after verification and runtime setup succeed. Back up before changing versions; newer worlds may not work in older Minecraft versions.</li><li>World-loading test controls in Activity are now hidden unless Advanced Freeze Diagnostics is enabled.</li><li>The launcher now mirrors the desktop wallpaper and its matching light or dark HEIC image on the current display. Light mode uses pale cards and rails with dark text; dark mode keeps dark cards and mint controls. Wallpaper contrast adapts for readability.</li><li>The app is now distributed as Blockintosh.app. Updated copies with an older versioned filename rename themselves safely and relaunch, refreshing matching Dock shortcuts. Existing Blockintosh.app copies are never overwritten.</li><li>Fixed Microsoft licensing requests failing when Microsoft issues the newer sign-in ticket format.</li><li>Licensing service refusals now show the HTTP status and service error instead of a generic response decoding error.</li><li>Includes build 53’s PlayStation controller support and the same bundled mcSoda runtime.</li></ul>
+<h2>First public beta</h2>
+<ul><li>Native macOS launcher with worlds, profiles, add-ons, Release and Preview builds, and Xbox sign-in.</li><li>The packaged app includes the mcSoda runtime and backend. Minecraft still comes from your own Microsoft account and license.</li></ul>
+<h2>Launcher updates</h2>
+<ul><li>This build connects to the Blockintosh update feed. Future downloads are signed and hosted separately from the launcher source.</li><li>Update checks are manual for now. Older builds without a feed need this first install done manually.</li></ul>
+<h2>Before you jump in</h2>
+<ul><li>Apple Silicon and Rosetta are required. The launcher needs macOS 15.0+, while gameplay needs macOS 26.4+ with bundled GPTK 4 or macOS 15.4+ with the optional GPTK 3 setup.</li><li>This is still a beta. Realms, Marketplace, sustained performance, and wider Mac compatibility are still being tested. Back up important worlds before testing a new build.</li></ul>
+</body></html>
