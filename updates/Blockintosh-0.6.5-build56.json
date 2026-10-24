@@ -1,0 +1,86 @@
+{
+  "id": "blockintosh-0.6.5-beta-build56",
+  "title": "Blockintosh 0.6.5 Beta · Build 56",
+  "summary": "0.6.5-beta build 56 fixes runtime preparation failures caused by missing canonical hostnames.",
+  "publishedAt": "2026-10-24T06:16:05.569124Z",
+  "source": "Blockintosh",
+  "sourceUrl": null,
+  "blocks": [
+    {
+      "kind": "bullet",
+      "text": "Build 56 fixes a Wine initialization crash on Macs whose hostname resolves without a canonical name. Minecraft can finish runtime preparation without resetting the launcher or changing the Mac hostname."
+    },
+    {
+      "kind": "heading",
+      "text": "What’s new in 0.6.5"
+    },
+    {
+      "kind": "bullet",
+      "text": "Update or change Minecraft versions from Profiles while keeping the same worlds, settings, skins, packs, and account. Each profile remembers its selected build."
+    },
+    {
+      "kind": "bullet",
+      "text": "Minecraft updates install alongside existing shared builds and select the new version only after verification and runtime setup succeed. Back up before changing versions; newer worlds may not work in older Minecraft versions."
+    },
+    {
+      "kind": "bullet",
+      "text": "World-loading test controls in Activity are now hidden unless Advanced Freeze Diagnostics is enabled."
+    },
+    {
+      "kind": "bullet",
+      "text": "The launcher now mirrors the desktop wallpaper and its matching light or dark HEIC image on the current display. Light mode uses pale cards and rails with dark text; dark mode keeps dark cards and mint controls. Wallpaper contrast adapts for readability."
+    },
+    {
+      "kind": "bullet",
+      "text": "The app is now distributed as Blockintosh.app. Updated copies with an older versioned filename rename themselves safely and relaunch, refreshing matching Dock shortcuts. Existing Blockintosh.app copies are never overwritten."
+    },
+    {
+      "kind": "bullet",
+      "text": "Fixed Microsoft licensing requests failing when Microsoft issues the newer sign-in ticket format."
+    },
+    {
+      "kind": "bullet",
+      "text": "Licensing service refusals now show the HTTP status and service error instead of a generic response decoding error."
+    },
+    {
+      "kind": "bullet",
+      "text": "Includes build 53’s PlayStation controller support and the same bundled mcSoda runtime."
+    },
+    {
+      "kind": "heading",
+      "text": "First public beta"
+    },
+    {
+      "kind": "bullet",
+      "text": "Native macOS launcher with worlds, profiles, add-ons, Release and Preview builds, and Xbox sign-in."
+    },
+    {
+      "kind": "bullet",
+      "text": "The packaged app includes the mcSoda runtime and backend. Minecraft still comes from your own Microsoft account and license."
+    },
+    {
+      "kind": "heading",
+      "text": "Launcher updates"
+    },
+    {
+      "kind": "bullet",
+      "text": "This build connects to the Blockintosh update feed. Future downloads are signed and hosted separately from the launcher source."
+    },
+    {
+      "kind": "bullet",
+      "text": "Update checks are manual for now. Older builds without a feed need this first install done manually."
+    },
+    {
+      "kind": "heading",
+      "text": "Before you jump in"
+    },
+    {
+      "kind": "bullet",
+      "text": "Apple Silicon and Rosetta are required. The launcher needs macOS 15.0+, while gameplay needs macOS 26.4+ with bundled GPTK 4 or macOS 15.4+ with the optional GPTK 3 setup."
+    },
+    {
+      "kind": "bullet",
+      "text": "This is still a beta. Realms, Marketplace, sustained performance, and wider Mac compatibility are still being tested. Back up important worlds before testing a new build."
+    }
+  ]
+}
