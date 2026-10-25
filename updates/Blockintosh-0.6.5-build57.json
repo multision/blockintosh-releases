@@ -1,0 +1,26 @@
+{
+  "id": "blockintosh-0.6.5-beta-build57",
+  "title": "Blockintosh 0.6.5 Beta · Build 57",
+  "summary": "0.6.5-beta build 57 fixes runtime setup with trailing-dot macOS home folders and prevents oversized crash logs.",
+  "publishedAt": "2026-10-25T20:22:32.423139Z",
+  "source": "Blockintosh",
+  "sourceUrl": null,
+  "blocks": [
+    {
+      "kind": "heading",
+      "text": "Bug fixes"
+    },
+    {
+      "kind": "bullet",
+      "text": "Fixed runtime preparation failing when the macOS home folder ends with a dot or space. Existing profiles and worlds stay in place."
+    },
+    {
+      "kind": "bullet",
+      "text": "Fixed runaway crash output creating huge log files. Runtime logs are limited to 16 MiB, event logs to 1 MiB, and older inactive session logs are cleaned up."
+    },
+    {
+      "kind": "bullet",
+      "text": "Fixed background runtime output keeping a finished launch connected to the launcher. Output continues draining safely after the main process exits."
+    }
+  ]
+}
