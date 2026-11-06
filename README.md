@@ -8,9 +8,10 @@ Website and docs: https://blockintosh.multision.dev/
 
 ## Before you jump in
 
-- Apple Silicon Mac and Rosetta.
+- Apple silicon Mac.
 - Launcher: macOS 15.0+.
-- Gameplay: macOS 26.4+ with bundled GPTK 4, or macOS 15.4+ with the optional GPTK 3 setup.
+- FEX gameplay: macOS 15.0+ with bundled Blockintosh Wine 1.0.
+- Rosetta gameplay: macOS 26.4+ with bundled GPTK 4, or macOS 15.4+ with optional GPTK 3. Rosetta is required for this runtime.
 - Your own Minecraft for Windows license. Minecraft is not included.
 
 This is still a beta. Back up important worlds before testing a new build. Compatibility and distribution notes are included with each release.
