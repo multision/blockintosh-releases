@@ -1,0 +1,70 @@
+{
+  "id": "blockintosh-0.6.6-beta-build73",
+  "title": "Blockintosh 0.6.6 Beta · Build 73",
+  "summary": "0.6.6-beta build 73: an experimental change aimed at keyboard and mouse input lag, plus a FEX frame pacing fix.",
+  "publishedAt": "2026-11-07T23:30:00Z",
+  "source": "Blockintosh",
+  "sourceUrl": null,
+  "blocks": [
+    {
+      "kind": "heading",
+      "text": "What's new since build 72?"
+    },
+    {
+      "kind": "bullet",
+      "text": "Trying to reduce keyboard and mouse input lag. Blockintosh now holds fewer frames in its own queue before they reach your screen, which may make input feel a little more responsive. This applies on both Rosetta and FEX, with VSync on or off. Results vary, and you may not notice a difference."
+    },
+    {
+      "kind": "bullet",
+      "text": "Fixed FEX frame pacing. On build 72, VSync, the frame limit and frame buffering stopped applying a few seconds after the game started on FEX. They now stay applied for the whole session."
+    },
+    {
+      "kind": "bullet",
+      "text": "New Input latency tracing toggle in Settings → Runtime → Advanced compatibility. It records input and frame timing in the launch log so we can look into input lag reports. It's off by default and doesn't record which keys you press, what you type, or where you click."
+    },
+    {
+      "kind": "bullet",
+      "text": "New Use three frame buffers toggle in the same place restores the old buffering."
+    },
+    {
+      "kind": "heading",
+      "text": "a few things to know"
+    },
+    {
+      "kind": "bullet",
+      "text": "The new buffering may lower your frame rate, mainly with VSync off or an unlimited FPS cap, and most noticeably on GPTK 4 and DXMT. If you'd rather have the higher FPS, turn on Use three frame buffers."
+    },
+    {
+      "kind": "bullet",
+      "text": "How it feels depends on your runtime, renderer and world. Some setups may feel snappier, and some won't feel any different."
+    },
+    {
+      "kind": "bullet",
+      "text": "Now that VSync and frame limits actually stay applied on FEX, FEX may feel different from build 72. If something seems off, let us know."
+    },
+    {
+      "kind": "bullet",
+      "text": "This doesn't fix input lag or stuttering. It's one experiment toward that, and your feedback decides what we keep."
+    },
+    {
+      "kind": "heading",
+      "text": "we want your feedback"
+    },
+    {
+      "kind": "paragraph",
+      "text": "If keyboard and mouse input feels better, worse or the same, or your FPS dropped, tell us your Mac model, macOS version, runtime (Rosetta or FEX), renderer and VSync/FPS cap settings. If you can, turn on Input latency tracing, play for a minute, and send the launch log (Launcher activity → OPEN LAUNCH LOGS)."
+    },
+    {
+      "kind": "heading",
+      "text": "requirements & beta notes"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Requirements haven't changed since build 72. Apple silicon and macOS 15+ are required for the launcher and FEX gameplay. Rosetta gameplay needs macOS 26.4+ with bundled GPTK 4, or macOS 15.4+ with optional GPTK 3. You need your own Minecraft for Windows license; Minecraft isn't included."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Still a beta, still not notarized. Back up important worlds before changing builds or runtimes."
+    }
+  ]
+}

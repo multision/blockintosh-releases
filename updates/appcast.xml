@@ -3,6 +3,16 @@
   <channel>
     <title>Blockintosh</title>
     <item>
+      <title>Blockintosh 0.6.6 Beta · Build 73</title>
+      <pubDate>Sat, 07 Nov 2026 23:24:18 +0000</pubDate>
+      <sparkle:version>73</sparkle:version>
+      <sparkle:shortVersionString>0.6.6</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <sparkle:releaseNotesLink>https://raw.githubusercontent.com/multision/blockintosh-releases/main/updates/Blockintosh-0.6.6-build73.html</sparkle:releaseNotesLink>
+      <enclosure url="https://github.com/multision/blockintosh-releases/releases/download/v0.6.6-beta.73/Blockintosh-0.6.6-build73.zip" length="816144868" type="application/octet-stream" sparkle:edSignature="7tAW8tKfnIP5G2nM8vH18ZUFiv9sR4qFWBQTHMX0YHARDFX8hDp/DmSl2avfW3WhBZ663Wk1uuTVM1u50drKAA==" />
+    </item>
+    <item>
       <title>Blockintosh 0.6.6 Beta · Build 72</title>
       <pubDate>Fri, 06 Nov 2026 03:25:14 +0000</pubDate>
       <sparkle:version>72</sparkle:version>
