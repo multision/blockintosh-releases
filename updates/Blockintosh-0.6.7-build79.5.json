@@ -1,0 +1,118 @@
+{
+  "id": "blockintosh-0.6.7-beta-build79.5",
+  "title": "Blockintosh 0.6.7 Beta · Build 79.5",
+  "summary": "0.6.7-beta build 79.5: Blockintosh Wine 3.0, DirectX 12 with ray tracing and DLSS on Rosetta, MetalFX upscaling for GPTK, shared worlds across runtimes, client mods and shader tools, and automatic Arke setup.",
+  "publishedAt": "2026-11-10T09:16:21Z",
+  "source": "Blockintosh",
+  "sourceUrl": null,
+  "blocks": [
+    {
+      "kind": "heading",
+      "text": "What's new since build 73?"
+    },
+    {
+      "kind": "bullet",
+      "text": "Blockintosh Wine 3.0 is now bundled for both Rosetta and FEX, with matching game hosts and graphics files. GPTK 3 is included alongside GPTK 4, so you don't need a separate download to try it."
+    },
+    {
+      "kind": "bullet",
+      "text": "Fixed Rosetta launches picking the wrong graphics folder. Play now uses the GPTK files bundled with the selected runtime."
+    },
+    {
+      "kind": "heading",
+      "text": "better graphics on Rosetta"
+    },
+    {
+      "kind": "bullet",
+      "text": "Rosetta's DXMT renderer is now Mullion, and it runs Minecraft in DirectX 12 instead of DirectX 11. Ray tracing and DLSS via MetalFX now work on Rosetta too, with their own settings in Settings → Runtime, separate from FEX's."
+    },
+    {
+      "kind": "bullet",
+      "text": "New DLSS quality setting for Mullion and VKD3D: Performance (the default), Balanced or Quality."
+    },
+    {
+      "kind": "bullet",
+      "text": "GPTK 3 and GPTK 4 can now use MetalFX upscaling: the game renders at a lower resolution and MetalFX scales it up to your display, with optional sharpening. Sharpening also works with Mullion's and VKD3D's MetalFX. GPTK also gets its own DLSS and ray tracing settings."
+    },
+    {
+      "kind": "bullet",
+      "text": "Ray-traced worlds on GPTK 4 now render instead of crashing the game. Ray tracing on GPTK 4 is still experimental and off unless you turn it on."
+    },
+    {
+      "kind": "bullet",
+      "text": "Fixed DLSS not loading on Mullion after playing on GPTK. Mullion and VKD3D now always use Metal 3."
+    },
+    {
+      "kind": "heading",
+      "text": "your worlds should stay with you"
+    },
+    {
+      "kind": "bullet",
+      "text": "Switching between FEX and Rosetta now uses the same worlds and add-ons for that launcher profile. Older runtime folders get brought together before you play, including saves left behind when switching to Blockintosh Wine. Separate profiles, accounts, Release and Preview still keep their own data."
+    },
+    {
+      "kind": "bullet",
+      "text": "If two copies of a world are different, we keep both as separate saves. Original folders get backed up before anything moves. If two versions of an add-on conflict, the active one stays in place and the other stays in the backup. Your launch log shows where to find it."
+    },
+    {
+      "kind": "heading",
+      "text": "client mods & shaders"
+    },
+    {
+      "kind": "bullet",
+      "text": "There's a new Enhancements page for the optional LeviLamina client loader, BetterRTX presets and RTX resource-pack tuning. Client mods and shader overlays stay with the selected profile, runtime and Minecraft build."
+    },
+    {
+      "kind": "bullet",
+      "text": "The client loader supports Minecraft 1.26.60 Release. Other Minecraft versions need a matching loader; the launcher explains when the selected build isn't supported, and offers to switch if LeviLamina is installed on another build in your profile."
+    },
+    {
+      "kind": "bullet",
+      "text": "LeviLamina now has an Install mod button, a list of your installed mods with a remove button, and a Get mods link. Worlds you play with mods show up under LeviLamina with their activity."
+    },
+    {
+      "kind": "bullet",
+      "text": "Every enhancement can now be turned off without removing it. BetterRTX lets you change presets and shows the worlds it applies to. The RTX tuner lists worlds with RTX packs, tunes each world's packs separately, and remembers the values you applied."
+    },
+    {
+      "kind": "bullet",
+      "text": "Added experimental FEX support for Arke 0.1.0. If you're using Arke with VKD3D or Mullion, the launcher turns on RTX and DLSS via MetalFX and turns off separate spatial upscaling. With GPTK 4, it enables Metal 3 fallback instead."
+    },
+    {
+      "kind": "bullet",
+      "text": "If Arke needs those settings changed, you'll get a clear explanation before the game starts. The launcher remembers that you've seen it, and keeps the changes with that profile."
+    },
+    {
+      "kind": "bullet",
+      "text": "Arke has rendering issues on GPTK, so on Rosetta with GPTK 3 or 4 the launcher asks before starting: play on Mullion instead, quit, or proceed anyway."
+    },
+    {
+      "kind": "bullet",
+      "text": "RTX pack tuning keeps the original files so you can restore them, and now reads more kinds of PNG textures, which fixes Apply failing on some packs. Removing a client enhancement keeps your worlds and resource packs."
+    },
+    {
+      "kind": "heading",
+      "text": "a few things that should feel better"
+    },
+    {
+      "kind": "bullet",
+      "text": "Play and Enhancements now show a progress ring and the current preparation step while they're working. Checking an installation no longer briefly makes it look like nothing is installed. Animations also respect Reduce Motion."
+    },
+    {
+      "kind": "bullet",
+      "text": "Closing an Arke session now stops that profile's leftover Wine helpers before cleaning up the launch. A few recognized Arke shutdown errors are kept in the logs without making a normal quit look like a failed launch. Startup and gameplay crashes still show up as errors."
+    },
+    {
+      "kind": "heading",
+      "text": "requirements & beta notes"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Apple silicon and macOS 15+ are required for the launcher and FEX. Bundled GPTK 4 requires macOS 27+, GPTK 3 needs macOS 15.4+, and Mullion supports macOS 15+. Rosetta gameplay needs Rosetta installed. You need your own Minecraft for Windows license; Minecraft isn't included."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Still a beta, still not notarized. Mods, Arke and RTX presets depend on your Minecraft version and renderer. Back up important worlds before changing builds, runtimes or client mods."
+    }
+  ]
+}
