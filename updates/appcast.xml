@@ -11,6 +11,11 @@
       <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
       <sparkle:releaseNotesLink>https://raw.githubusercontent.com/multision/blockintosh-releases/main/updates/Blockintosh-0.6.7-build80.html</sparkle:releaseNotesLink>
       <enclosure url="https://github.com/multision/blockintosh-releases/releases/download/v0.6.7-beta.80/Blockintosh-0.6.7-build80.zip" length="740828511" type="application/octet-stream" sparkle:edSignature="omVvQFZWT3LKPUUu59Ca+IQMaynmmzSX8YkE/D6Wd4D50C37gXimtzKX7AkfYVGs9Jy1WJCFyHjwhByEa6AgDQ==" />
+      <sparkle:deltas>
+        <enclosure url="https://github.com/multision/blockintosh-releases/releases/download/v0.6.7-beta.80/Blockintosh-0.6.7-build80-from79.5.delta" sparkle:deltaFrom="79.5" length="443318" type="application/octet-stream" sparkle:edSignature="lLtKE8BTvpYcqmYoALTX8BrdW91Y+Bvv0dk6zW3fwv3aPhuZnxL0WcnwGuiLfHBwF+cmAMChnBz2wCSqFKs3Ag==" />
+        <enclosure url="https://github.com/multision/blockintosh-releases/releases/download/v0.6.7-beta.80/Blockintosh-0.6.7-build80-from73.delta" sparkle:deltaFrom="73" length="179992910" type="application/octet-stream" sparkle:edSignature="DcwnW45yCYm8VzooTR0cCeDF9ybTtVulU77JhZQ24edAZvYgNeacV4+jzODiFplkSX4O+pCkanA2sAeUBG8YCA==" />
+        <enclosure url="https://github.com/multision/blockintosh-releases/releases/download/v0.6.7-beta.80/Blockintosh-0.6.7-build80-from72.delta" sparkle:deltaFrom="72" length="181924374" type="application/octet-stream" sparkle:edSignature="d/oCbaDjRHyABC7F7osroQ85W2kA5Wu26PIgs2LXEBOZKfjItN37UIpm3QGRZNMhajqRK1oqsA8CaW6W4zojAw==" />
+      </sparkle:deltas>
     </item>
     <item>
       <title>Blockintosh 0.6.7 Beta · Build 79.5</title>
