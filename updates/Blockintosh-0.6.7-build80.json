@@ -1,0 +1,86 @@
+{
+  "id": "blockintosh-0.6.7-beta-build80",
+  "title": "Blockintosh 0.6.7 Beta · Build 80",
+  "summary": "0.6.7-beta build 80: controllers on Rosetta, a quit shortcut that always works, the launcher with a controller, and Arke set up on every renderer.",
+  "publishedAt": "2026-11-11T00:14:55Z",
+  "source": "Blockintosh",
+  "sourceUrl": null,
+  "blocks": [
+    {
+      "kind": "heading",
+      "text": "What's new since build 79.5?"
+    },
+    {
+      "kind": "bullet",
+      "text": "Fixed controllers not working on Rosetta. Blockintosh Wine 3.0 couldn't find its controller library there, so the game saw no controller at all. DualShock, DualSense and Xbox controllers work on Rosetta and FEX again."
+    },
+    {
+      "kind": "bullet",
+      "text": "Quit anytime: press Cmd + Opt + Q, or hold D-Pad Up and Triangle (Y on Xbox) for two seconds. Minecraft closes right away, along with any Wine processes left behind, even if the game is stuck."
+    },
+    {
+      "kind": "bullet",
+      "text": "Quitting this way keeps your settings safe. If Minecraft's options file gets cut short, it's restored from when you started playing."
+    },
+    {
+      "kind": "bullet",
+      "text": "A small card slides in when the game starts with your gamertag and picture, and how to quit."
+    },
+    {
+      "kind": "heading",
+      "text": "the launcher with a controller"
+    },
+    {
+      "kind": "bullet",
+      "text": "You can use the whole launcher with a controller. The D-pad or left stick moves between buttons, A presses, B goes back, LB and RB switch pages, and the right stick scrolls."
+    },
+    {
+      "kind": "heading",
+      "text": "arke & client mods"
+    },
+    {
+      "kind": "bullet",
+      "text": "Arke now sets itself up on every renderer: GPTK, Mullion and VKD3D-Proton, on both Rosetta and FEX. You'll see what it uses each time you play with Arke."
+    },
+    {
+      "kind": "bullet",
+      "text": "With Arke, ray tracing is on and MetalFX upscales at 1.75× in place of DLSS (about the same as DLSS Balanced). Minecraft's own DLSS can't run under Arke's shaders."
+    },
+    {
+      "kind": "bullet",
+      "text": "Arke on GPTK no longer asks before launching. GPTK 4 runs Arke on Metal 3, since Metal 4 doesn't let Arke start properly."
+    },
+    {
+      "kind": "bullet",
+      "text": "Enhancements are installed once per profile and shared by Rosetta and FEX. LeviLamina, your mods, BetterRTX and RTX tuning carry over between runtimes, and existing installs move over on their own."
+    },
+    {
+      "kind": "bullet",
+      "text": "No more small window flashing as Minecraft starts with LeviLamina. Its crash logger now runs inside the game."
+    },
+    {
+      "kind": "heading",
+      "text": "a few things to know"
+    },
+    {
+      "kind": "bullet",
+      "text": "Vibrant Visuals isn't available on FEX right now. Minecraft reports a resource pack failing to load there. We're looking into it, and Rosetta isn't affected."
+    },
+    {
+      "kind": "bullet",
+      "text": "Arke on FEX is still experimental."
+    },
+    {
+      "kind": "heading",
+      "text": "requirements & beta notes"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Requirements haven't changed since build 79.5. Apple silicon and macOS 15+ are required for the launcher and FEX. Bundled GPTK 4 requires macOS 27+, GPTK 3 needs macOS 15.4+, and Mullion supports macOS 15+. Rosetta gameplay needs Rosetta installed. You need your own Minecraft for Windows license; Minecraft isn't included."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Still a beta, still not notarized. Mods, Arke and RTX presets depend on your Minecraft version and renderer. Back up important worlds before changing builds, runtimes or client mods."
+    }
+  ]
+}
