@@ -3,6 +3,20 @@
   <channel>
     <title>Blockintosh</title>
     <item>
+      <title>Blockintosh 0.6.7 Beta · Build 81</title>
+      <pubDate>Fri, 13 Nov 2026 15:07:41 +0000</pubDate>
+      <sparkle:version>81</sparkle:version>
+      <sparkle:shortVersionString>0.6.7</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <sparkle:releaseNotesLink>https://raw.githubusercontent.com/multision/blockintosh-releases/main/updates/Blockintosh-0.6.7-build81.html</sparkle:releaseNotesLink>
+      <enclosure url="https://github.com/multision/blockintosh-releases/releases/download/v0.6.7-beta.81/Blockintosh-0.6.7-build81.zip" length="737068636" type="application/octet-stream" sparkle:edSignature="uk0CdJyOxfFxzuxOr5c7Ww7jAydMyJSi1drVzX3c64T6/+AOMVW5+iz03VlC+9LGAlHG1vU7Bv3kyt+6uNx/Ag==" />
+      <sparkle:deltas>
+        <enclosure url="https://github.com/multision/blockintosh-releases/releases/download/v0.6.7-beta.81/Blockintosh-0.6.7-build81-from80.delta" length="3696518" type="application/octet-stream" sparkle:edSignature="73p5ssWIYwpXsoJ+1ECuynbf99Kb23uEChMNlIyCFh0co9eb4wJhlHxqqjiOcRXt9wqR9XEp6n16I3bLAmC6CQ==" sparkle:deltaFrom="80" />
+        <enclosure url="https://github.com/multision/blockintosh-releases/releases/download/v0.6.7-beta.81/Blockintosh-0.6.7-build81-from79.5.delta" length="3805214" type="application/octet-stream" sparkle:edSignature="pZinBuQj838haabDyB5/vi79YUjW3I9b2dQD+ppiYBY812Ir6Lhl63HeDtnsR3lRWH2P5NmFQJ4mrI4OIxUlAA==" sparkle:deltaFrom="79.5" />
+      </sparkle:deltas>
+    </item>
+    <item>
       <title>Blockintosh 0.6.7 Beta · Build 80</title>
       <pubDate>Wed, 11 Nov 2026 00:14:55 +0000</pubDate>
       <sparkle:version>80</sparkle:version>
