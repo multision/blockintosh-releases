@@ -1,0 +1,82 @@
+{
+  "id": "blockintosh-0.6.8-beta-build82",
+  "title": "Blockintosh 0.6.8 Beta · Build 82",
+  "summary": "0.6.8-beta build 82: a proper delete button for mc builds, native dll injection, and Blockintosh Wine 4.0 with newer FEX, Mullion and VKD3D.",
+  "publishedAt": "2026-11-18T15:04:37Z",
+  "source": "Blockintosh",
+  "sourceUrl": null,
+  "blocks": [
+    {
+      "kind": "heading",
+      "text": "What's new since build 81?"
+    },
+    {
+      "kind": "bullet",
+      "text": "You can finally delete minecraft builds right from the launcher. Before, the only way was revealing the build in finder and trashing it yourself. Now theres a trash button on every build card in Builds, right next to Reveal. It asks first, and tells you which profiles are using that build."
+    },
+    {
+      "kind": "bullet",
+      "text": "Deleting a build only removes the game files. Your worlds, packs, enhancements, settings and sign-ins all stay put. Any profile that was using that build just picks another one, and you can reinstall the same version from Builds whenever."
+    },
+    {
+      "kind": "bullet",
+      "text": "New: DLL Injection in Add-ons → Enhancements. It's separate from LeviLamina, so no loader and nothing gets patched. Add your .dll, hit play, and it gets loaded into minecraft once the game is running."
+    },
+    {
+      "kind": "bullet",
+      "text": "You can flip injection on/off, turn individual dlls on or off, and pick how long to wait after the game starts (right away up to 60 seconds) for dlls that need the game fully loaded first. They load in the order listed."
+    },
+    {
+      "kind": "bullet",
+      "text": "Dlls get copied into your profile for that build, so moving or deleting the original file wont break anything. Only 64-bit (x64) dlls work since minecraft is 64-bit. 32-bit and ARM dlls get turned down with the reason why."
+    },
+    {
+      "kind": "bullet",
+      "text": "Activity shows whether each dll loaded or why it didnt. If a dll fails it never stops the game from launching."
+    },
+    {
+      "kind": "bullet",
+      "text": "Blockintosh Wine 4.0 is here for both FEX and Rosetta. It brings the newer FEX, Mullion alpha 4, VKD3D 6.0 and WineMetalGL 4.0, all on the newer MetalSharp Wine 8.0 base. Your profiles, worlds and add-ons stay where they are."
+    },
+    {
+      "kind": "bullet",
+      "text": "Mullion and VKD3D have improvements to shader caching and loading, with less work blocking the game while shaders get ready. Ray tracing and DLSS via MetalFX get fixes too. How much it helps depends on your Mac, renderer and world."
+    },
+    {
+      "kind": "bullet",
+      "text": "Fixed keys showing up as \"Button 229\" when a Japanese, Chinese or Korean input method is selected in macOS. Minecraft gets normal key presses again. Full input-method composition in chat still isnt supported."
+    },
+    {
+      "kind": "heading",
+      "text": "smaller updates"
+    },
+    {
+      "kind": "bullet",
+      "text": "Shoutout to Injectosh by NaySurGithub for the idea. Blockintosh does it natively now with its own built-in injector, so you dont need a separate app."
+    },
+    {
+      "kind": "bullet",
+      "text": "Only add dlls you trust. A dll runs with full access to the game, and some servers dont allow client mods."
+    },
+    {
+      "kind": "heading",
+      "text": "achievements"
+    },
+    {
+      "kind": "bullet",
+      "text": "We're skipping achievement support for now for user safety. Unlocking them doesnt work with our current Wine setup, and testing a workaround would mean sending real achievement events from your xbox account. We're not comfortable experimenting with peoples accounts, so achievements are staying out of Blockintosh for now."
+    },
+    {
+      "kind": "heading",
+      "text": "requirements & beta notes"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Requirements havent changed. Apple silicon and macOS 15+ are required for the launcher and FEX. GPTK 4 needs macOS 27+, GPTK 3 needs macOS 15.4+, and Mullion supports macOS 15+. Rosetta gameplay needs Rosetta installed. You need your own Minecraft for Windows license; Minecraft isnt included."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Still a beta, still not notarized. DLL injection has been tested against test programs on both FEX and Rosetta, but not with every mod out there, so results depend on the dll, your Minecraft version and your renderer. Back up important worlds before changing builds, runtimes or client mods."
+    }
+  ]
+}

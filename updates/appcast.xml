@@ -3,6 +3,23 @@
   <channel>
     <title>Blockintosh</title>
     <item>
+      <title>Blockintosh 0.6.8 Beta · Build 82</title>
+      <pubDate>Wed, 18 Nov 2026 15:04:37 +0000</pubDate>
+      <sparkle:version>82</sparkle:version>
+      <sparkle:shortVersionString>0.6.8</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <sparkle:releaseNotesLink>https://raw.githubusercontent.com/multision/blockintosh-releases/main/updates/Blockintosh-0.6.8-build82.html</sparkle:releaseNotesLink>
+      <enclosure url="https://github.com/multision/blockintosh-releases/releases/download/v0.6.8-beta.82/Blockintosh-0.6.8-build82.zip" length="740593990" type="application/octet-stream" sparkle:edSignature="Zj1hDiSCrumHTVQRAbs0R1ABQO+dVOHU7w8Z9BGl7vhn1RNTVO9PwDI0doL7Fgxti9h1BUpTyhTsgjktWELcCg==" />
+      <sparkle:deltas>
+        <enclosure url="https://github.com/multision/blockintosh-releases/releases/download/v0.6.8-beta.82/Blockintosh-0.6.8-build82-from81.delta" length="57721846" type="application/octet-stream" sparkle:edSignature="dmr8iBOiAcfk32lwx7aSD5NExPbr9llxkhl/hlMv/H073KVze9VkNYa8Z0TK+mPHRVHz/2GlEsVsdDbRlvToAg==" sparkle:deltaFrom="81" />
+        <enclosure url="https://github.com/multision/blockintosh-releases/releases/download/v0.6.8-beta.82/Blockintosh-0.6.8-build82-from80.delta" length="60317322" type="application/octet-stream" sparkle:edSignature="piPWR3KJxtDO++4o9CZp/HzDP0bm5JJf9fTUW4eCqVdPH+thNe91WcXhoQpCMFmtZPCg1HDoTFPMw8+ftULrBg==" sparkle:deltaFrom="80" />
+        <enclosure url="https://github.com/multision/blockintosh-releases/releases/download/v0.6.8-beta.82/Blockintosh-0.6.8-build82-from79.5.delta" length="60457046" type="application/octet-stream" sparkle:edSignature="+CQ2CzqqmK5/OW5eIFBpwpbNTkEMtoxR7eYRBerPvr7bIU+rmmvVMkVthomhKsCoM7nCfhAuhlwTPzRon7rVCA==" sparkle:deltaFrom="79.5" />
+        <enclosure url="https://github.com/multision/blockintosh-releases/releases/download/v0.6.8-beta.82/Blockintosh-0.6.8-build82-from73.delta" length="215897554" type="application/octet-stream" sparkle:edSignature="yvIgQg09dQh3PfvVUUKMxy8GzA68754JiAz+0rTiXWQwTZNZDl0x9DL9YvGzyNZWB7FCX9GEq3kFg/zD5W94Bg==" sparkle:deltaFrom="73" />
+        <enclosure url="https://github.com/multision/blockintosh-releases/releases/download/v0.6.8-beta.82/Blockintosh-0.6.8-build82-from72.delta" length="213871982" type="application/octet-stream" sparkle:edSignature="I1Tm+kuEXrR88kycJCrj3TjqcfRCtCmWp2oR4QqdtKCkZjEhwyLV6V3ulIuFOJuKwuw3MZs0dE/P/wIIecJQBQ==" sparkle:deltaFrom="72" />
+      </sparkle:deltas>
+    </item>
+    <item>
       <title>Blockintosh 0.6.7 Beta · Build 81</title>
       <pubDate>Fri, 13 Nov 2026 15:07:41 +0000</pubDate>
       <sparkle:version>81</sparkle:version>
