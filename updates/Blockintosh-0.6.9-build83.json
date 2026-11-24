@@ -1,0 +1,74 @@
+{
+  "id": "blockintosh-0.6.9-beta-build83",
+  "title": "Blockintosh 0.6.9 Beta · Build 83",
+  "summary": "0.6.9-beta build 83: Blockintosh Wine 5.0, a DLSS quality picker for GPTK, better ray tracing on FEX, and fixes for options.txt resets and expired store sign-ins.",
+  "publishedAt": "2026-11-24T13:29:08Z",
+  "source": "Blockintosh",
+  "sourceUrl": null,
+  "blocks": [
+    {
+      "kind": "heading",
+      "text": "What's new since build 82?"
+    },
+    {
+      "kind": "bullet",
+      "text": "Blockintosh Wine 5.0 is here for both FEX and Rosetta. It moves up to MetalSharp Wine 9.0 and MetalVulkan 7.0 (thats what VKD3D-Proton-MacOS is called now, it has DXVK in the same lane), with a newer Mullion, FEX and WineMetalGL 4.1. Your profiles, worlds and add-ons stay where they are."
+    },
+    {
+      "kind": "bullet",
+      "text": "Mullion picks up Shader Model 6.8, and DLSS hands MetalFX better motion data now. MetalFX upscaling also stopped holding 144hz displays down to 48 fps."
+    },
+    {
+      "kind": "bullet",
+      "text": "FEX got a way bigger JIT code buffer, so stuff with a lot of hot code starts up much faster."
+    },
+    {
+      "kind": "bullet",
+      "text": "Ray tracing on FEX: Mullion and VKD3D with RTX now use DLSS via MetalFX at your profile's DLSS quality on every Apple silicon Mac, and spatial upscaling gets turned off for those so you're not stacking two upscalers. Before, only fanless MacBook Airs got this. All of this DLSS performance tuning for Mullion, VKD3D-Proton and FEX is thanks to riadkabashi."
+    },
+    {
+      "kind": "bullet",
+      "text": "New DLSS quality: Ultra Performance (33% render scale) for FEX and Rosetta Mullion. It runs uncapped. Performance (50%) now runs with VSync at up to 60 fps. Also riadkabashi's work."
+    },
+    {
+      "kind": "bullet",
+      "text": "GPTK 4 and GPTK 3 get a DLSS quality picker too: Ultra Performance, Performance, Balanced and Quality, per profile, in Runtime settings. Apple's DLSS bridge doesnt have a setting for this and minecraft always asks for Quality, so Blockintosh slips a tiny dll in when the game starts to swap the mode. Apple's own files arent touched. Quality is the default and leaves everything how it was."
+    },
+    {
+      "kind": "bullet",
+      "text": "Fixed options.txt getting reset after a crash or force quit. If minecraft dies while it's writing that file it leaves it cut short, and then the game resets all your settings. Now Blockintosh puts back the copy it saved at launch, after every exit and again before the next launch if it finds a damaged one."
+    },
+    {
+      "kind": "bullet",
+      "text": "Fixed the \"Failed to authenticate Xbox user\" error (exit 101) once your store sign-in expires. People were reinstalling to get past it. Now Blockintosh clears out the dead store session for that profile and just asks you to sign in again on the next Play. No reinstall, and your worlds and builds dont get touched."
+    },
+    {
+      "kind": "bullet",
+      "text": "Fixed the launcher wallpaper on macOS 27. It was falling back to a near black background. It picks up your wallpaper again (live wallpaper apps too), and if theres no wallpaper you get the default artwork instead of a blank screen. Settings also tells you if Screen Recording access is missing."
+    },
+    {
+      "kind": "heading",
+      "text": "smaller updates"
+    },
+    {
+      "kind": "bullet",
+      "text": "Huge shoutout to riadkabashi from the Discord. He did the DLSS performance improvements across Mullion, VKD3D-Proton and FEX, which is basically the whole ray tracing side of this update."
+    },
+    {
+      "kind": "bullet",
+      "text": "If the game loads DLSS before the GPTK quality dll gets to it, that launch just keeps the game's own mode, and the launch log tells you."
+    },
+    {
+      "kind": "heading",
+      "text": "requirements & beta notes"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Requirements havent changed. Apple silicon and macOS 15+ are required for the launcher and FEX. GPTK 4 needs macOS 27+, GPTK 3 needs macOS 15.4+, and Mullion supports macOS 15+. Rosetta gameplay needs Rosetta installed. You need your own Minecraft for Windows license; Minecraft isnt included."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Still a beta, still not notarized. Wine 5.0 is a big jump, so if a renderer acts weird after updating, try another one and let us know in Discord with your launch log. Back up important worlds before changing builds, runtimes or client mods."
+    }
+  ]
+}

@@ -6,13 +6,13 @@ This repo is for packaged Blockintosh downloads, release notes, and distribution
 
 Website and docs: https://blockintosh.multision.dev/
 
-Current beta: [Blockintosh 0.6.8 build 82](https://github.com/multision/blockintosh-releases/releases/tag/v0.6.8-beta.82).
+Current beta: [Blockintosh 0.6.9 build 83](https://github.com/multision/blockintosh-releases/releases/tag/v0.6.9-beta.83).
 
 ## Before you jump in
 
 - Apple silicon Mac.
 - Launcher: macOS 15.0+.
-- FEX gameplay: macOS 15.0+ with bundled Blockintosh Wine 4.0.
+- FEX gameplay: macOS 15.0+ with bundled Blockintosh Wine 5.0.
 - Rosetta gameplay: macOS 27.0+ with bundled GPTK 4, macOS 15.4+ with bundled GPTK 3, or macOS 15.0+ with experimental Mullion. Rosetta is required for this runtime.
 - Your own Minecraft for Windows license. Minecraft is not included.
 

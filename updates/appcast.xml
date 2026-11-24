@@ -3,6 +3,22 @@
   <channel>
     <title>Blockintosh</title>
     <item>
+      <title>Blockintosh 0.6.9 Beta · Build 83</title>
+      <pubDate>Tue, 24 Nov 2026 13:29:08 +0000</pubDate>
+      <sparkle:version>83</sparkle:version>
+      <sparkle:shortVersionString>0.6.9</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <sparkle:releaseNotesLink>https://raw.githubusercontent.com/multision/blockintosh-releases/main/updates/Blockintosh-0.6.9-build83.html</sparkle:releaseNotesLink>
+      <enclosure url="https://github.com/multision/blockintosh-releases/releases/download/v0.6.9-beta.83/Blockintosh-0.6.9-build83.zip" length="762319648" type="application/octet-stream" sparkle:edSignature="rkLyFxodYKNEQ30JyGV/koyuLrolzkEQlfarmg/N++Pd9jW3Wt5NiQSWSQv87NMS2cfe+1fI1JhtI5WCfjlTBg==" />
+      <sparkle:deltas>
+        <enclosure url="https://github.com/multision/blockintosh-releases/releases/download/v0.6.9-beta.83/Blockintosh-0.6.9-build83-from82.delta" length="65158138" type="application/octet-stream" sparkle:edSignature="dsf/BX+vyGADMPFiSwUWYfcBkncYIIyws/zzn6YnBkKPrM1wfK/dHAtvuKsmvfSfWQfqoCWl/ScitXOS1Z1LBw==" sparkle:deltaFrom="82" />
+        <enclosure url="https://github.com/multision/blockintosh-releases/releases/download/v0.6.9-beta.83/Blockintosh-0.6.9-build83-from81.delta" length="75575858" type="application/octet-stream" sparkle:edSignature="XDmIy+tYUVOGcT9GzsA5yKvpgvz5FPRBQIG1xsOI+AYLkISVDy8dhBNnn4cc1c0wHzQSqnklonQauCuvjmXPCQ==" sparkle:deltaFrom="81" />
+        <enclosure url="https://github.com/multision/blockintosh-releases/releases/download/v0.6.9-beta.83/Blockintosh-0.6.9-build83-from80.delta" length="78197486" type="application/octet-stream" sparkle:edSignature="mdAt3xlcmG4IhXrt8sPEvcGZVTylpJsjif6g7IF163YNTXlnSgHTZG0Am88b6nUeFNyQ46zhQXa26kEYZ2O5BA==" sparkle:deltaFrom="80" />
+        <enclosure url="https://github.com/multision/blockintosh-releases/releases/download/v0.6.9-beta.83/Blockintosh-0.6.9-build83-from79.5.delta" length="78329162" type="application/octet-stream" sparkle:edSignature="TuAUGDegU5GrU791iXZbdhp51m2HZDjLVtwyShYkl1vTgKXljhVyFp8LQZFmHA4G7QqRzJabHsq9jCk3D99iCg==" sparkle:deltaFrom="79.5" />
+      </sparkle:deltas>
+    </item>
+    <item>
       <title>Blockintosh 0.6.8 Beta · Build 82</title>
       <pubDate>Wed, 18 Nov 2026 15:04:37 +0000</pubDate>
       <sparkle:version>82</sparkle:version>
